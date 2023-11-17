@@ -35,7 +35,7 @@ const CreateNote = ({ notes, setNotes }: Props) => {
       ...notes,
       {
         id: new Date().toString(),
-        title: textRef.current?.value,
+        title: titleRef.current?.value,
         text: textRef.current?.value,
         color: colorRef.current?.value,
         date: new Date().toString(),
